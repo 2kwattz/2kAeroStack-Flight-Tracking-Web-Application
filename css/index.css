@@ -1,0 +1,229 @@
+/* CSS RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* UTILITY CLASS */
+
+.btn {
+    padding: 10px;
+    margin: 20px 20px;
+    /* border-radius: 10px; */
+    background-color: black;
+    color: #CBB26A;
+    font-weight: 600;
+}
+
+.btn a {
+
+    color: #CBB26A;
+    text-decoration: none;
+}
+
+.btn a:hover {
+
+    color: #be9e44;
+}
+
+/* SCROLLBAR  */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBB26A;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.top-header {
+
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.top-header h1 {
+
+    font-size: 1.2rem;
+    color: #CBB26A
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo h1:hover {
+    color: #be9e44;
+    cursor: pointer;
+}
+
+
+.logo img {
+    height: 80px;
+
+}
+
+.navbar ul {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul a {
+
+    color: #CBB26A;
+    float: left;
+    text-decoration: none;
+    padding: 13px;
+
+}
+
+.navbar ul li a::before {
+    content: "";
+    background-color: #CBB26A;
+    display: block;
+    height: 2px;
+    width: 0%;
+
+}
+
+.navbar ul li a:hover::before {
+    transition: all ease-in-out 250ms;
+    width: 100%;
+}
+
+ul {
+    /* float:left; */
+}
+
+.container {
+
+    background-image: url(/img/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 10px;
+}
+
+.container h3 {
+
+    margin: 10px 10px;
+}
+
+/* Section 2 */
+
+.services {
+
+    /* border: 2px solid black; */
+}
+
+.services h2 {
+
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 30px;
+    transition: all ease-in-out 250ms;
+}
+
+.services-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+    /* border: 3px solid black; */
+
+}
+
+
+
+.items img {
+    width: 100%;
+}
+
+.items {
+
+    width: 19%;
+}
+
+.items h5 {
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 8px 8px;
+}
+
+/* Offering Section (Non Satanic) */
+
+.offering {
+
+    background-color: #e5d9b6;
+    width: 100%;
+    padding: 30px 10px;
+    margin: 20px 0px;
+}
+
+.offering h6 {
+
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.o-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-1 {
+
+    width: 28%;
+    margin: 25px 25px;
+
+}
+
+.o-1 h2 {
+    font-weight: 300;
+    margin: 12px 0px;
+}
+
+.prints h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 40px 9px;
+}
+
+footer {
+
+    background-color: black;
+    color: #CBB26A;
+    margin-top: 40px;
+    padding: 40px;
+}
+

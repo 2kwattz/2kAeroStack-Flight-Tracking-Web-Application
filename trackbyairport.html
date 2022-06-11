@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/trackbyairport.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <noscript> Please enable Javascript </noscript>
+    <title> Flight Tracker </title>
+</head>
+<body>
+    <header class="top-header">
+
+        <div class="logo">
+            <img src="/img/logo2.png" alt="Logo not available" class="logo">
+            <h1> 2kAeroStack </h1>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="/"> Home Page </a></li>
+                <li><a href="/iatatracker.html"> Aircraft Tracker </a></li>
+                <li><a href="/trackbyairport.html"> Track by Airport </a></li>
+                <li><a href="#"> Aviation News </a></li>
+                <li><a href="#"> Weather Tracker</a></li>
+                <li><a href="#"> IATA Codes </a></li>
+                <li><a href="#"> Aviation Photos </a></li>
+                <li><a href="#"> About </a></li>
+                <li><a href="#"> Contact Me </a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <main class="container">
+
+        <div class="inner-container">
+
+            <form class="airportracker" action="/airportracker" method="POST">
+        
+                <label for="airportIata"> Enter Airport IATA </label>
+                <input type="text" name="airportiata" id="airportiata" required>
+        
+                <a href="#"> Psst! Don't know your Airport IATA ? Click here ! </a>
+        
+                <button class="btn" id="airportTrackerSubmit" type="submit"> Track Flights </button>
+                <div class="resultbox">
+
+                    <span> Result Box </span>
+            
+                    <div class="api-wrapper">
+            
+                    </div>
+            
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <section class="instructions">
+
+        <p id="introduction"> On any given day, even with the drop in air traffic due to the COVID-19 pandemic, there
+            are thousands of airplanes flying over the United States and the rest of the world — commercial jets,
+            general aviation and private aircraft and military planes from various armed forces. If you are an AvGeek,
+            you know that there are apps and sites you can use to track those planes and tell exactly what the one
+            you’ve just seen fly over is. You can use them to track aircraft you cannot see, too.
+            With 2kAeroStack, you can find out granular details including how fast and high a flight is, its route, the exact airplane operating it and when it was built, and what routes it flew before, even months in the past.
+
+            Sign up for the free daily newsletters </p>
+
+            <h4> Instructions </h4>
+
+            <p>
+                <ul>
+                    <li> Enter the Airport IATA, The ICAO airline designator is a code assigned by the International Civil Aviation Organization (ICAO) to aircraft operating agencies, aeronautical authorities, and services related to international aviation. If you are not sure about Airport IATA , Please click <a href="#"> Here </a> to view the list. </li>
+                    <li> Enter the Airline IATA Code . IATA Codes are an integral part of the travel industry and essential for the identification of an airline, its destinations and its traffic documents. If you are unsure about your Airline IATA code , Click <a href="https://en.wikipedia.org/wiki/List_of_airports_by_IATA_airport_code:_A" target="_blank"> Here</a> to view the list </li>
+                    <li> Once you are done , Click on Check Flight History to view the flight details </li>
+                </ul>
+            </p>
+
+    </section>
+
+
+    
+</body>
+</html>

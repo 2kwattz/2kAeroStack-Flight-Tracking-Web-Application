@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/dep" method="POST">
+
+        <input type="text" placeholder="Enter Airport Code" name="depairport">
+        <input type="text" placeholder="Enter Begin time ( in Unix ) " name="btairport">
+        <input type="text" placeholder="Enter End time ( in Unix ) " name="etairport">
+
+        <p> The given time interval must not be larger than seven days!</p>
+        <button class="btn" type="submit" value="submit"> Track Flights </button>
+    </form>
+    
+</body>
+</html> 

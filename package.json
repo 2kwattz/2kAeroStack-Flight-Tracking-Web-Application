@@ -1,0 +1,24 @@
+{
+  "name": "2kaerostack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Roshan Bhatia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.1",
+    "body": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-fetch": "^3.2.4",
+    "nodemon": "^2.0.15",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}

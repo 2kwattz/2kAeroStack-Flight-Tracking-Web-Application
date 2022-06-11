@@ -1,0 +1,29 @@
+Real-time Worldwide Flight Traffic
+Explore the skies around you or anywhere in the world using our live flight tracking map. Click on any aircraft or 
+airport for a more detailed view, and use the layer icon in the top right corner to add weather layers and more.
+
+Find out the 2-letter code of an airline or identify to which airline a 2-letter code corresponds
+Find out the 3-letter code of an airport location or identify which airport uses a particular code
+
+Different IATA codes
+Airline Designator Codes
+Those companies assigned an IATA Airline Designator Code are to use such designators
+ for reservations, schedules, timetables, telecommunications, ticketing, cargo documentation, 
+ legal, tariffs and/or other commercial/traffic purposes.
+
+If you are interested in reviewing your eligibility and/or applying for an IATA Designator Code,
+ please visit our IATA Codes page accessible via the IATA Customer Portal. Requirements are explained in
+  the IATA Designator Code Requirements document (pdf). 
+
+
+
+The Airport & City Search API finds airports and cities that match a specific word or string of letters.
+ Using this API, you can automatically suggest airports based on what the traveler enters in the search field. The API provides a list of airports/cities ordered 
+by yearly passenger volume with the name, 3-letter IATA code, time zone and coordinates of each airport. 
+
+
+  Notes:
+
+Airports must have a minimum of commercial flights per week to be included.
+Excludes military and private airports.
+

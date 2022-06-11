@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico">
+    <link rel="stylesheet" href="/css/iatatracker.css">
+    <title>Track Flight by IATA Code</title>
+</head>
+
+<body>
+
+    <header class="top-header">
+
+        <div class="logo">
+            <img src="/img/logo2.png" alt="Logo not available" class="logo">
+            <h1> 2kAeroStack </h1>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="/index.html"> Home Page </a></li>
+                <li><a href="/iatatracker.html"> Aircraft Tracker </a></li>
+                <li><a href="/trackbyairport.html"> Track by Airport </a></li>
+                <li><a href="#"> Aviation News </a></li>
+                <li><a href="#"> Weather Tracker</a></li>
+                <li><a href="#"> IATA Codes </a></li>
+                <li><a href="#"> Aviation Photos </a></li>
+                <li><a href="#"> About </a></li>
+                <li><a href="#"> Contact Me </a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <main class="container">
+
+        <div class="inner-container">
+
+
+            <h1> Real-time Worldwide Flight Tracker </h1>
+
+            <h3> Track live flights using Flight Icao and Aircraft IATA Code, Unsure about what they are? Click here to
+                view
+                list of airport </h3>
+
+
+
+            <form class="form" name="iata" action="/iatatracker" method="POST">
+
+                <label for="iatacode"> Enter IATA Code : (for example : 6E881) </label>
+                <input type="text" name="iatacode" id="iatacode" required><br>
+
+                <label for="flighticao"> Enter Flight ICAO Code : (for eg: igo for Indigo Airlines) </label>
+                <input type="text" name="flighticao" id="flighticao" required>
+
+                <button class="btn" type="submit"> Check Flight History <span class="spinner"></span></button>
+
+                <div class="resultbox">
+
+                </div>
+        </div>
+
+        </form>
+    </main>
+
+    <section class="instructions">
+
+        <p id="introduction"> On any given day, even with the drop in air traffic due to the COVID-19 pandemic, there
+            are thousands of airplanes flying over the United States and the rest of the world — commercial jets,
+            general aviation and private aircraft and military planes from various armed forces. If you are an AvGeek,
+            you know that there are apps and sites you can use to track those planes and tell exactly what the one
+            you’ve just seen fly over is. You can use them to track aircraft you cannot see, too.
+            With 2kAeroStack, you can find out granular details including how fast and high a flight is, its route, the exact airplane operating it and when it was built, and what routes it flew before, even months in the past.
+
+            Sign up for the free daily newsletters </p>
+
+            <h4> Instructions </h4>
+
+            <p>
+                <ul>
+                    <li> Enter the Flight Icao, The ICAO airline designator is a code assigned by the International Civil Aviation Organization (ICAO) to aircraft operating agencies, aeronautical authorities, and services related to international aviation. If you are not sure about your flight's ICAO Code , Please click <a href="#"> Here </a> to view the list. </li>
+                    <li> Enter the Airline IATA Code . IATA Codes are an integral part of the travel industry and essential for the identification of an airline, its destinations and its traffic documents. If you are unsure about your Airline IATA code , Click <a href="#"> Here</a> to view the list </li>
+                    <li> Once you are done , Click on Check Flight History to view the flight details </li>
+                </ul>
+            </p>
+
+    </section>
+
+    <div class="resultbox">
+
+    </div>
+    <footer>
+
+        &copy; 2kwattz 2kAeroStack
+
+        <div class="referrence">
+            <div class="bottom-left">
+
+
+            </div>
+
+            <div class="middle">
+
+            </div>
+
+            <div class="bottom-right">
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+<script>
+
+
+</script>
+
+</html>

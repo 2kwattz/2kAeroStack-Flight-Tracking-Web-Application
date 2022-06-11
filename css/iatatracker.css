@@ -1,0 +1,203 @@
+/* CSS RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* UTILITY CLASS */
+
+.btn {
+    padding: 10px;
+    margin: 20px 20px;
+    /* border-radius: 10px; */
+    background-color: black;
+    color: #CBB26A;
+    font-weight: 600;
+}
+
+.btn a {
+
+    color: #CBB26A;
+    text-decoration: none;
+}
+
+.btn a:hover {
+
+    color: #be9e44;
+}
+
+input{
+
+    padding: 9px;
+    border: 0px;
+}
+
+
+/* SCROLLBAR  */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBB26A;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.top-header {
+
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.top-header h1 {
+
+    font-size: 1.2rem;
+    color: #CBB26A
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo h1:hover {
+    color: #be9e44;
+    cursor: pointer;
+}
+
+
+.logo img {
+    height: 80px;
+
+}
+
+.navbar ul {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul a {
+
+    color: #CBB26A;
+    float: left;
+    text-decoration: none;
+    padding: 13px;
+
+}
+
+.navbar ul li a::before {
+    content: "";
+    background-color: #CBB26A;
+    display: block;
+    height: 2px;
+    width: 0%;
+
+}
+
+.navbar ul li a:hover::before {
+    transition: all ease-in-out 250ms;
+    width: 100%;
+}
+
+ul {
+    /* float:left; */
+}
+
+.container{
+
+    padding: 120px 10px;
+    background-image: url(/img/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.container h3 {
+
+    margin: 10px 10px;
+}
+
+.container h1{
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.container h3{
+    font-weight: 200;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+
+}
+
+form input{
+    margin-top: 5px;
+}
+
+.inner-container{
+    
+
+    background-color: rgba(0, 0, 0, 0.355);
+    padding: 30px 9px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions{
+
+    padding: 50px 39px;
+    margin: 0px 100px;
+    /* background-color: #e5d9b6; */
+    font-size: 1.1rem;
+}
+
+.instructions h4{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+
+/* Offering Section (Non Satanic) */
+
+
+footer{
+
+    background-color: black;
+    color: #CBB26A;
+    padding: 40px;
+ 
+}
